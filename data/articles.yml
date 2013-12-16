@@ -1,4 +1,7 @@
 articles:
   - title: "I'm a shut-in. This is my story."
-    date: "2013/2/20"
+    date: "2013/02/20"
     url: "https://medium.com/p/cb5fb914d9ed"
+  - title: "Assembling Things With Grunt"
+    date: "2013/12/16"
+    url: "/2013/12/16/assembling-things-with-grunt"
