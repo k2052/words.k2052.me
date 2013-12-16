@@ -2,7 +2,7 @@
 title:  Assembling Things With Grunt
 ---
 
-There was once a dark time in JS world. Assembling things was hard back then. We built our JS projects using
+There was once a dark time in the JS world. Assembling things was hard back then. We built our JS projects using
 giant monstrosities of such enormous complexity and size that only wisest wizards among us could operate them. These monsters [^Monsters] took XMl files to compile our xml files to compile our JSON to a task file that was finally ran by a horde of json-to-xml parsers that then ran a shell script. It was hard, complex, and rarely worked. Building with these tools, was well, grunt work.
 
 Times have changed. The days have gotten brighter and the nights shorter. The darkness is held back for a time at least, by a plethora of new and simple tools that now populate our land. One tool rose up to save us, a tool called 
