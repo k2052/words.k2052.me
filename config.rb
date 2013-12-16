@@ -56,7 +56,8 @@ set :layout_dir, "layouts"
 
 data['articles'].articles.each do |article|
 	article['date'] = DateTime.strptime(article['date'], "%Y/%m/%d")
+	puts article['date'].inspect
 end
 
-data['articles'].articles.sort_by!{|a| a['date']}.reverse
+data['articles'].articles.sort_by!{|a| a['date']}.reverse!
 @articles = data['articles'].articles
