@@ -53,10 +53,8 @@ sprockets.append_path File.join "#{root}", "vendor/assets/css"
 set :layout_dir, "layouts"
 
 # Parse and sort the articles list
-
 data['articles'].articles.each do |article|
 	article['date'] = DateTime.strptime(article['date'], "%Y/%m/%d")
-	puts article['date'].inspect
 end
 
 data['articles'].articles.sort_by!{|a| a['date']}.reverse!
