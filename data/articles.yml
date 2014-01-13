@@ -4,4 +4,7 @@ articles:
     url: "https://medium.com/p/cb5fb914d9ed"
   - title: "Assembling Things With Grunt"
     date: "2013/12/16"
-    url: "/2013/12/16/assembling-things-with-grunt"
+    url: "/2013/12/16/assembling-things-with-grunt"  
+  - title: "Duck.md"
+    date: "2014/01/13"
+    url: "/2014/01/13/duckdotmd"
