@@ -5,7 +5,7 @@ Prism.hooks.add('after-highlight', function (env) {
 		return;
 	}
 
-	var linesNum = (1 + env.code.split('\n').length);
+	var linesNum = (0 + env.code.split('\n').length);
 	var lineNumbersWrapper;
 
 	lines = new Array(linesNum);
