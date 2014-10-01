@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.1'
 
 # Server
 gem "puma"
@@ -19,5 +19,4 @@ gem 'slim'
 
 ## Assets
 gem 'sprockets-sass'
-gem 'sassy-buttons', require: 'sassy-buttons'
 gem 'zurb-foundation', require: 'zurb-foundation'

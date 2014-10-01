@@ -28,6 +28,7 @@ pre.line-numbers[class*="language-"]
 
 \:not(pre) > code[class*="language-"], pre[class*="language-"]
   background: $code-background
+  color: $code-color
 
 /* Inline code */
 \:not(pre) > code[class*="language-"]
@@ -88,8 +89,9 @@ pre.line-numbers[class*="language-"]
   cursor: help
 
 .line-numbers .line-numbers-rows
-  top: -1em
+  top: -0.9em
   left: -4em
+  overflow-y: hidden
 
   \:first-child
     padding-top: 0.6em

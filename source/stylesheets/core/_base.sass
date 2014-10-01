@@ -7,14 +7,20 @@
 
 html
   font-size: $font-size
+  font-weight: $font-weight
   line-height: $line-height
   font-family: $font-family
   color: $color
-
+  white-space: $white-space
+  background-color: $background-color
+  @include background($background-image)
+  background-repeat: no-repeat
+  
 body
   font-size: 100%
-  background-color: $background-color
-  background-image: $background-image
+  // background-size:   cover                    
+  // background-repeat: no-repeat
+  // background-position: center top
 
 p
   margin: 26px 0
@@ -24,7 +30,7 @@ a
   color: $a-color
   text-decoration: none
   transition: all 0.2s ease-in-out 0s
-  font-weight: 300 
+  font-weight: $a-font-weight
   outline: 0
   &:hover,
   &:focus
@@ -35,17 +41,18 @@ h1, h2, h3, h4, h5, h6
   color: $heading-color
   font-weight: $heading-font-weight
   text-transform: uppercase
-  line-height: 1.8
+  line-height: 1.2
   font-family: $heading-font-family
-  margin: 0
 
 h1
   color: $h1-color
   text-align: center
   font-size: rem(60px)
+  font-weight: 900
 
 h2 
   font-size: rem(30px)
+  font-weight: 700
 
 h3
   font-size: rem(24px)
@@ -84,25 +91,7 @@ pre, code
   line-height: 1.8
 
 b, strong
-  font-weight: 700
+  font-weight: 400
 
 em 
-  font-weight: 600
   font-style: italic
-
-.small
-  display: block
-  margin: 0px
-  padding: 0px
-  text-transform: uppercase
-  color: $small-color
-  letter-spacing: 3px
-  font-size: rem($small-font-size)
-
-.datetime
-  text-transform: uppercase
-  font-size: rem($small-font-size)
-  color: $small-color
-  font-style: italic
-  font-weight: 600
-  

@@ -32,7 +32,7 @@ If you have used npm to manage your JS projects then you are familiar with the p
         "grunt-contrib-uglify": "~0.2.2"
       }
     }
-{: .language-json}
+{: .language-javascript}
 
 If you have an existing Grunt project you can use npm to append the grunt dependency to package.json:
 
