@@ -5,9 +5,9 @@
 #= require 'bigtext'
 
 $(document).ready ->
-	WebFont.load
-		google:
-			families: ['Lato:400,400italic,300,300italic,100,900,700:latin']
-			
-		active: ->
-			$('.article-title').bigtext()
+  WebFont.load
+    google:
+      families: ['Lato:400,400italic,300,300italic,100,900,700:latin']
+      
+    active: ->
+      $('.article-title').bigtext()

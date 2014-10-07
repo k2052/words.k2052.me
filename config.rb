@@ -14,7 +14,7 @@ activate :blog do |blog|
   blog.sources = "/posts/:year-:month-:day-:title"
   blog.layout  = 'article'
   blog.permalink = "/:year/:month/:day/:title"
-	blog.default_extension = ".md"
+  blog.default_extension = ".md"
 end
 
 # Enable pretty URLS
@@ -53,7 +53,7 @@ set :layout_dir, "layouts"
 
 # Parse and sort the articles list
 data['articles'].articles.each do |article|
-	article['date'] = DateTime.strptime(article['date'], "%Y/%m/%d")
+  article['date'] = DateTime.strptime(article['date'], "%Y/%m/%d")
 end
 
 data['articles'].articles.sort_by!{|a| a['date']}.reverse!
