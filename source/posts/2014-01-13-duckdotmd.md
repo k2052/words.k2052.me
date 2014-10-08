@@ -18,7 +18,7 @@ so it faces the monitor.
 > Then we return a token and a new state 
 > To iterate one char we need to call peek()
 
-You squeeze it and it squeaks to acknowledge it has understood what you've said so far.
+You squeeze it and it squeaks to acknowledge it has understood what you have said so far.
 
 > We check the string (from the stream) against Regexes here.
 > If it matches any of them then we eat (parse) the rest of the string
