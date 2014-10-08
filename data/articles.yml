@@ -8,3 +8,6 @@ articles:
   - title: "Duck.md"
     date: "2014/01/13"
     url: "/2014/01/13/duckdotmd"
+  - title: "Building API's with Grape Part 1"
+    date: "2014/10/08"
+    url: "/2014/10/08/building-apis-with-grape-part1"

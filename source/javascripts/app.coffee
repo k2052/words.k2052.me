@@ -2,6 +2,7 @@
 #= require 'prism/plugins/line-numbers/prism-line-numbers'
 #= require 'prism/components/prism-coffeescript'
 #= require 'prism/components/prism-javascript'
+#= require 'prism/components/prism-ruby'
 #= require 'bigtext'
 
 $(document).ready ->
