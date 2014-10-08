@@ -16,7 +16,7 @@ Installing grunt is simple:
 
     $ npm install grunt-cli -g
 
-Installing _grunt-cli_ will make a grunt wrapper command available globally. When you run `$ grunt` _grunt-cli_ will look for the local/project scoped version of Grunt and then run it. How do we install a local version of Grunt to our project? Simple, we use a package.json file
+Installing _grunt-cli_ will make a grunt wrapper command available globally. When you run '$ grunt' grunt-cli will look for the local/project scoped version of Grunt and then run it. How do we install a local version of Grunt to our project? Simple, we use a package.json file
 
 ## package.json
 
@@ -46,7 +46,7 @@ We can then run grunt against our project:
 
     $ grunt
 
-For now, running this will do nothing. How do we make it do something? We need to add a Gruntfile
+For now, running this will do nothing. How do we make it do something? We need to add a Gruntfile.
 
 ## Gruntfile
 
@@ -245,4 +245,6 @@ Take a look at my CoffeeScript framework Ryggrad for a real world example of thi
 
 [^Monsters]: Monsters like [Apache Ant](https://en.wikipedia.org/wiki/Apache_Ant)
 [^package-json-guide]: An excellent interactive guide on the package.json format is available at [Nodejitsu](http://package.json.nodejitsu.com)
+
+This tutorial was excerpted from my book [Building CoffeeScript Frameworks](https://leanpub.com/building-coffeescript-frameworks). 
 
