@@ -244,4 +244,5 @@ Take a look at my CoffeeScript framework Ryggrad for a real world example of thi
 ## Notes
 
 [^Monsters]: Monsters like [Apache Ant](https://en.wikipedia.org/wiki/Apache_Ant)
-[^package-json-guide]: An excellent interactive guide on the package.json format is available at http://package.json.nodejitsu.com/
+[^package-json-guide]: An excellent interactive guide on the package.json format is available at [Nodejitsu](http://package.json.nodejitsu.com)
+
