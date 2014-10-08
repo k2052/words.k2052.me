@@ -49,16 +49,14 @@ I have started recording my thoughts during a project in a _Duck.md_ file. They 
 
     ofxTimeline implements some scrolling elements. Pretty sure I can handle the port of ofxPanZoom. 
     Will do that. We can then inherit from it and use it pan around in view ports. 
-    Now we need to decide can we achieve one canavs? 
+    Now we need to decide can we achieve one canvas? 
     I think yes. We just need to persist the viewport when editing.
 
     We can also easily utilize Box2d for panning. The helloworld examples are demonstrative enough of 
-    panning. We made need a few different things for different canvases 
-    but I think this will all work in the end.
+    panning. We may need a few different things for different canvases but I think this will all work in the end.
 
     viewCenter in Box2d is totally linked to the GLviewport. 
     Everytime we pan all we need to do is do make a call to gluOrtho2D which handles clipping planes. 
-    Holy shit that is easy.
 
 There are no rules for what you put in these files. They can be debugging moments, a list of pitfalls, explanations of 
 development choices, todos you aren't sure should be todos yet, or just random thoughts.
