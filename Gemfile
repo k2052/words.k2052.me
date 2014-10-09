@@ -10,7 +10,6 @@ gem "rack-contrib"
 # Core
 gem "middleman", "~> 3.1.2"
 gem 'middleman-blog'
-gem 'pygments.rb', require: 'pygments'
 
 ## Rendering
 gem 'builder'
