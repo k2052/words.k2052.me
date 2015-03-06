@@ -17,5 +17,5 @@ gem 'kramdown', git: "git://github.com/k2052/kramdown.git"
 gem 'slim'
 
 ## Assets
-gem 'sprockets-sass'
+gem 'sprockets-sass', '~> 1.2'
 gem 'zurb-foundation', require: 'zurb-foundation'
